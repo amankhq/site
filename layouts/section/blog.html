@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="py-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 prose prose-slate lg:prose-lg">
+	<h1>Blog da Amank</h1>
+	<p>Olá! Somos <a href="https://www.linkedin.com/in/thalesviniciusf/">Thales</a> e <a href="https://www.linkedin.com/in/vinicius-brasil/">Vinicius</a>, co-foundadores da Amank. Estamos construindo a primeira plataforma de gestão e automação completa de licenças, pagamentos, assinaturas e renovações de software SaaS. Você pode ler um pouco mais sobre nossa jornada e o que aprendemos no caminho neste blog.</p>
+
+	<hr />
+
+	<ul class="list-none" style="padding: 0 !important">
+		{{range .Site.RegularPages}}
+			<li>
+				<a class="block text-xl no-underline hover:underline" href="{{.Permalink}}">{{.Title}}</a>
+				<p class="text-normal">{{.Description}}</p>
+				<a class="block text-sm no-underline text-blue-600 text-medium hover:underline" href="{{.Permalink}}">Continue lendo →</a>
+			</li>
+		{{end}}
+	</ul>
+</div>
+{{ end }}
