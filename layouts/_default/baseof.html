@@ -13,6 +13,7 @@
     {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
     {{ end }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+    <script defer data-domain="amank.com.br" src="https://plausible.io/js/script.js"></script>
   </head>
   <body class="flex h-full flex-col">
     <header class="py-10">
