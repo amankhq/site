@@ -91,7 +91,6 @@
       "font-semibold",
       "from-[#ff80b5]",
       "gap-8",
-      "gap-x-2",
       "gap-x-3",
       "gap-x-4",
       "gap-x-6",
@@ -113,7 +112,6 @@
       "gtext-blue-600",
       "h-10",
       "h-3",
-      "h-5",
       "h-6",
       "h-8",
       "h-9",
@@ -305,15 +303,21 @@
       "benefícios-de-adotar-uma-smp",
       "blog-da-amank",
       "como-os-saas-management-platforms-smps-resolvem-o-problema",
+      "como-solicitar-meus-dados",
+      "compromisso-do-usuário",
       "faq",
       "faq-title",
       "funcionalidades",
       "get-started-today",
       "implemente-a-melhor-saas-management-platform-na-sua-empresa",
+      "mais-informações",
       "paint0_linear_15_20",
       "paint1_linear_15_20",
       "paint2_linear_15_20",
-      "preco"
+      "para-que-utilizamos-seus-dados",
+      "política-de-privacidade",
+      "preco",
+      "que-dados-são-coletados"
     ]
   }
 }

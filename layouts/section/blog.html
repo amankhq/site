@@ -5,7 +5,7 @@
 	<hr />
 
 	<ul class="list-none" style="padding: 0 !important">
-		{{range .Site.RegularPages}}
+		{{- range where .Site.RegularPages ".Params.unlisted" "!=" "true" -}}
 			<li>
 				<a class="block text-xl no-underline hover:underline" href="{{.Permalink}}">{{.Title}}</a>
 				<p class="text-normal">{{.Description}}</p>
